@@ -14,6 +14,11 @@ app.get('/how-long-to-beat', ({ query: { title, year }, set }) => {
         return error;
     });
 });
+
+app.get('/metacritic', ({ query: { title, type } }) => {
+    console.log({ title, type });
+    return 'Metacritic call is under construction 🚧';
+});
 app.get("*", () => handle404());
 
 app.listen(3000);
