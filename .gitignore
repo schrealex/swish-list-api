@@ -42,3 +42,4 @@ package-lock.json
 **/*.bun
 /index.js
 /.idea/workspace.xml
+/.idea/checkstyle-idea.xml
